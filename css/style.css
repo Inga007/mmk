@@ -841,7 +841,8 @@ contact
 
     .bannerimg img {
         left: 15px;
-        bottom: 50px
+        top: 250px;
+        width: 80%;
     }
     .contact-info ul{
         flex-direction: column;
@@ -865,9 +866,7 @@ contact
         
     }
     
-    .service_content{
-        left: unset;
-    }
+  
     .mySlides img{
         height: 300px;
     }
