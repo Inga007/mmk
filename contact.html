@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+
+
+    <header>
+       <div class="header">
+        <div class="bigContainer">
+           <div class="menu">
+            <div class="logo">
+                <a href="index.html">
+                  <img src="image/logo2.png" alt="logo">
+                </a>
+            </div>
+            <div class="menuList">
+                <ul class="navspan ">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="catalog.html">Catalogue</a></li>
+                    <li><a href="contact.html" class="activeColor">Contact Us</a></li>
+                   
+                </ul>
+            </div>
+            <a class="menuBar" data-bs-toggle="offcanvas" href="#mobilemenu" role="button" aria-controls="offcanvasExample">
+                <img src="image/menu.png" alt="">
+               </a>
+           </div>     
+          
+
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="mobilemenu" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                 
+                  <div class="dropdown mt-3">
+                    <div class="mobileList">
+                        <ul class="navspan ">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="catalog.html">Catalogue</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                           
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+       </div>
+
+
+    </header>
+    <section>
+        <div  class="bigContainer ">
+        
+            <div class="row">
+              <div class="col-lg-12 ">
+                <form id="contact" method="post">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="section-heading">
+                        
+                        <h2> <em>Contact</em> Us</h2>
+                      </div>
+                    </div>
+                <div class="col-lg-6 contactHeading">
+                  <h1>Get in touch to discuss how we can meet your process heating needs.</h1>
+                  <p>Contact us by phone or through the contact form for general inquiries, questions about out products, or to place a customized order.
+                  </p>
+                  <p> Phone: <em>1 800 265 9699</em> </p>
+
+                </div>
+
+                    <div class="col-lg-6">
+                      <div class="row">
+                        <div class=" col-lg-6"  >        
+                            <input type="text"  placeholder="Name *"  required>
+                          </div>
+                          <div class=" col-lg-6"  >        
+                            <input type="text"  placeholder="Company Name"  >
+                          </div>
+                       
+                        <div class="col-lg-6">
+                            <input type="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">           
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="tel"  onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 43'
+                             placeholder="Phone Number" autocomplete="on">
+                        </div>
+                        <div class="col-lg-12">
+                            <textarea  placeholder="Message *" required="required"></textarea>
+                        </div>
+                        
+                        <div class="col-lg-12 main_btn">                   
+                          <button   type="submit">SEND</button>                      
+                    </div>
+                      </div>
+                    </div>
+                   
+                  </div>
+                </form>
+              </div>
+            </div>
+         
+        </div>
+      </section>
+<section>
+
+  <div class="bigContainer">
+    <div class="iframe">
+
+   
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.743442913651!2d11.462626422446837!3d46.07615659340642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778903679e3ebe7%3A0x7c6dce83e040e00!2s38050%20Parise%2C%20Autonomous%20Province%20of%20Trento%2C%20Italy!5e0!3m2!1sen!2s!4v1662482121304!5m2!1sen!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+</section>
+    <section class="footerBlock">
+       
+      <div class="bigContainer">
+      
+          <div class="contact-info">
+            <ul>
+              <li>
+                <ul class="footermenu ">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="product.html">Products</a></li>
+                  <li><a href="catalog.html">Catalogue</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                 
+              </ul>
+              </li>
+              <li>
+                <div class="icon">
+                  <img src="image/contact-icon-01.png" alt="websoft email ">
+                  <a href="mailto:">info@company.com</a>
+                </div>
+                <div class="icon">
+                  <img src="image/contact-icon-02.png" alt="websoft phone">
+                  <a href="tel:+37494907373"> 094-90-73-73</a>
+                </div>
+                <div class="icon">
+                  <img src="image/contact-icon-03.png" alt=" websoft location">
+                  <a target="_blank" href="https://goo.gl/maps/XUuBznUYxQssS3ZV9">26a Movses Khorenatsi Street</a>
+                </div>
+             
+                
+              </li>
+           
+              <li>
+                <div class="icon">
+                  <a href="#">
+                  <img src="image/instagram.svg" alt="instagram"></a>
+                  <a href="#">
+                  <img src="image/facebook.svg" alt="facebook"></a>
+                 
+
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </section>
+    <footer>
+        <div class="footer">
+          <p class="copyright">Copyright &copy; 2019-<b class="year"> </b> <span></span> Բոլոր իրավունքները պաշտպանված են</p>
+        </div>
+      </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
